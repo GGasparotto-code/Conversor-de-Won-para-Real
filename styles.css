@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+/* Scrollbar Styles */
+body::-webkit-scrollbar {
+    width: 0.625rem; /* Define a largura da barra de rolagem */
+}
+
+body::-webkit-scrollbar-track {
+    background: black; /* Define a cor de fundo da área da barra de rolagem */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background: #FF1B7B; /* Define a cor do "polegar" (a parte que o usuário arrasta) da barra de rolagem */
+    border-radius: 0.625rem; /* Define o raio da borda do "polegar" para arredondá-lo */
+}
+
+/* Global Styles */
+body {
+    background-color: black; /* Define a cor de fundo do corpo da página como preto */
+    margin: 0; /* Reseta a margem padrão do corpo da página */
+    padding: 0; /* Reseta o preenchimento padrão do corpo da página */
+    font-family: Arial, sans-serif; /* Define a fonte do texto */
+    color: white; /* Define a cor do texto */
+    position: relative; /* Define o posicionamento do corpo como relativo, permitindo o posicionamento absoluto de elementos internos */
+}
+
+/* Logo Styles */
+.logo {
+    position: absolute; /* Posiciona o logo de forma absoluta em relação ao seu ancestral posicionado (o body, neste caso) */
+    top: 20px; /* Define a distância do topo da página como 20 pixels */
+    right: 20px; /* Define a distância da direita da página como 20 pixels */
+    max-width: 80px; /* Define a largura máxima do logo como 80 pixels */
+    width: auto; /* Permite que a largura do logo se ajuste automaticamente, mantendo a proporção */
+}
+  
+  /* Container with the background image */
+.container {
+    background: url('https://i.postimg.cc/TY28jTqJ/bg4-ia.jpg') no-repeat center center/cover; /* Define a imagem de fundo, centraliza, impede a repetição e cobre todo o container */
+    min-height: 100vh; /* Define a altura mínima do container como 100% da altura da viewport */
+    display: flex; /* Usa Flexbox para criar um layout flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente dentro do container flexível */
+    align-items: center; /* Centraliza o conteúdo verticalmente dentro do container flexível */
+}
+  
+/* Content div for text and button */
+.content {
+    text-align: center; /* Centraliza o texto dentro da div */
+    background-color: rgba(0, 0, 0, 0.5); /* Define a cor de fundo como preto com 50% de opacidade */
+    padding: 1.25rem 2.5rem; /* Define o preenchimento interno (espaçamento) da div */
+    border-radius: 0.5rem; /* Define o raio da borda para arredondar os cantos */
+}
+  
+.content h2 {
+    margin-bottom: 1.25rem; /* Define a margem inferior do cabeçalho h2, espaçando-o do conteúdo abaixo */
+}
+  
+/* Button Styles */
+button {
+    background-color: #ff1b7b; /* Define a cor de fundo do botão */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 0.625rem 1.25rem; /* Define o preenchimento interno do botão */
+    font-size: 1.2rem; /* Define o tamanho da fonte do texto do botão */
+    color: white; /* Define a cor do texto do botão */
+    cursor: pointer; /* Define o cursor do mouse como uma mão, indicando que é clicável */
+
+    /* Adiciona uma transição suave para a propriedade de cor de fundo */
+    transition: background-color 0.3s ease;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+}
+  
+button:hover {
+    background-color: #1ABC9C; /* Muda a cor de fundo do botão ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% ao passar o mouse */
+}
