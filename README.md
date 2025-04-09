@@ -11,7 +11,7 @@ Projeto desenvolvido com a temática da série Round 6 tem como objetivo demonst
 
 ## 💻Como usar
 ### ☁️Clonar o repositório:
-1. Para usar o Devlinks, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/Conversor-de-Won-para-Real.git
+1. Para usar o conversor, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/Conversor-de-Won-para-Real.git
 2. Acesse o projeto: Navegue até a pasta do projeto recém-clonado em seu terminal e abra o arquivo index.html em seu navegador. Por exemplo, utilizando o VS Code, você pode abrir o terminal integrado e executar: code index.html
 
 ### ⬇️Fazendo o download do repositório:
